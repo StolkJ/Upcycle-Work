@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Teko', sans-serif;
+    line-height: 1;
+    background-color: #F2F2F2;
+    color: #0367A6;
+    width: 375px;
+    height: 667px;
+    overflow: auto;
+    font-size: large;
+}
+
+header {
+    background: #f2f2f2;
+    color: #0367A6;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    padding-top: 5px;
+}
+
+header img[alt="Ketting"] {
+    width: 100%;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background: #F2F2F2;
+}
+
+nav ul li {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    border: 5px solid #F25041;
+    border-radius: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 7px;
+    padding-left: 7px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0367A6;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 115%;
+}
+
+li:hover {
+    background: #F25041;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #f2f2f2;
+}
+
+section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f2f2f2;
+    border-radius: 45px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 10px solid #F25041;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 45px;
+    margin-bottom: 15px;
+}
+
+h1, h2 {
+    color: #0367A6;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+article.workshop {
+    background: #f2f2f2;
+    padding: 15px;
+    border-radius: 45px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border: 10px solid #F25041;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+article.workshop img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background: #0367A6;
+    color: #f2f2f2;
+    padding: 10px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: start;
+}
+
+footer img {
+    max-width: 50px;
+    height: auto;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+footer p {
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+footer a {
+    color: #F2F2F2;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+footer p a {
+    padding-left: 1px;
+}
+footer p a :last-child{
+    padding-left: 1px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        text-align: center;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+
+    nav ul li {
+        margin: 20px 0;
+    }
+}
